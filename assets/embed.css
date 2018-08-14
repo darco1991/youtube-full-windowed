@@ -1,0 +1,97 @@
+body.yfw {
+    overflow: hidden !important;
+}
+
+body.yfw #movie_player {
+    position: fixed!important;
+    z-index: 2100!important;
+    bottom: 0px!important;
+    right: 0px!important;
+    left: 0px!important;
+    top: 0px!important;
+}
+
+body.yfw .ytp-upnext {
+    /*z-index: 2200!important;*/
+    top: 0px;
+}
+
+body.yfw .ytp-cued-thumbnail-overlay-image{
+    display: none;
+}
+
+body.yfw .html5-video-container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+body.yfw .html5-video-container .html5-main-video {
+    height: 100% !important;
+    width: 100% !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+body.yfw .ytp-tooltip {
+    top: auto !important;
+    bottom: 50px !important;
+}
+
+/*body.yfw .html5-video-player .ytp-chrome-bottom {
+    width: calc(100% - 24px) !important;
+}*/
+
+body.yfw .html5-video-player .ytp-chrome-bottom .ytp-size-button {
+    display: none !important;
+}
+
+body .ytp-full-windowed-button {
+    overflow: visible !important;
+    position: relative;
+}
+
+body .ytp-full-windowed-button:hover:after {
+    display: block;
+    opacity: 1;
+}
+
+body .ytp-full-windowed-button:after {
+    /*background-color: rgba(25, 25, 25, .89);*/
+    background-color: #191919;
+    transition: opacity .1 ease-in-out;
+    content: 'Full Windowed';
+    transform: translateX(-50%);
+    bottom: calc(100% + 14px);
+    z-index: 5555555555;
+    border-radius: 2px;
+    position: absolute;
+    padding: 2px 9px 0;
+    line-height: 23px;
+    font-weight: 500;
+    white-space: pre;
+    display: none;
+    color: #eee;
+    opacity: 0;
+    left: 50%;
+    margin: 0;
+}
+
+body.yfw .ytp-full-windowed-button:after {
+    content: 'Exit Full Windowed';
+    background-color: #191919;
+}
+
+body.yfw .ytp-popup.ytp-contextmenu {
+    z-index: 2101 !important;
+}
+
+/*body.yfw #player.ytd-watch {
+    box-sizing: border-box!important;
+    width: 100%!important;
+    height: calc((9/16)*100vw)!important;
+    max-height: calc(100vh - 185px)!important;
+    min-height: var(--flex854-mode-player-height)!important;
+}
+*/

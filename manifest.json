@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Full Windowed",
+    "short_name": "YFW",
+    "description": "This extension adds the ability to toggle a full windowed mode in YouTube website",
+    "version": "1.0.6",
+    "icons": {
+        "16": "icons/16.png",
+        "64": "icons/64.png",
+        "128": "icons/128.png"
+    },
+    "author": "Dennis Rosero",
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "css": [
+                "assets/embed.css"  
+            ],
+            "js": [
+                "assets/embed.js"
+            ]
+        }
+    ]
+}
