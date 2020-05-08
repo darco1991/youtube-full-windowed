@@ -11,3 +11,4 @@ If you like the extension, consider donating to support further developments.
 [img1]: https://addons.cdn.mozilla.net/user-media/previews/full/201/201474.png "YFW Off"
 [img2]: https://addons.cdn.mozilla.net/user-media/previews/full/201/201475.png "YFW Onn"
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
