@@ -32,6 +32,7 @@ body.yfw .html5-video-container .html5-main-video {
     right: 0px !important;
     left: 0px !important;
     top: 0px !important;
+    background: #000 !important;
 }
 
 body.yfw .ytp-tooltip {
@@ -61,7 +62,7 @@ body .ytp-full-windowed-button:after {
     /*background-color: rgba(25, 25, 25, .89);*/
     background-color: #191919;
     transition: opacity .1 ease-in-out;
-    content: 'Full Windowed';
+    content: 'Full Windowed (w)';
     transform: translateX(-50%);
     bottom: calc(100% + 14px);
     z-index: 5555555555;
@@ -79,7 +80,7 @@ body .ytp-full-windowed-button:after {
 }
 
 body.yfw .ytp-full-windowed-button:after {
-    content: 'Exit Full Windowed';
+    content: 'Exit Full Windowed (w)';
     background-color: #191919;
 }
 

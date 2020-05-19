@@ -80,5 +80,3 @@ body.extension-full-windowed.extension-full-windowed-enabled #player.ytd-watch {
     max-height: calc(100vh - 185px)!important;
     min-height: var(--flex854-mode-player-height)!important;
 }
-
-

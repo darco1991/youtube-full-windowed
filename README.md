@@ -1,8 +1,12 @@
-#Youtube Full Windowed
+# Youtube Full Windowed
 
 https://addons.mozilla.org/es/firefox/addon/youtube-full-windowed
 
 This extension adds the ability to toggle a full windowed mode in YouTube website
+
+## Hotkeys:
+* Toggle full windowed mode (w)
+* Exit full windowed mode (esc)
 
 If you like the extension, consider donating to support further developments.
 
