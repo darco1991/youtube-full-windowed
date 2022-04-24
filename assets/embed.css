@@ -9,6 +9,7 @@ body.yfw #movie_player {
     right: 0px!important;
     left: 0px!important;
     top: 0px!important;
+    background-color: black!important;
 }
 
 body.yfw .ytp-upnext {
@@ -25,7 +26,7 @@ body.yfw .html5-video-container {
     width: 100% !important;
 }
 
-body.yfw .html5-video-container .html5-main-video {
+/*body.yfw .html5-video-container .html5-main-video {
     height: 100% !important;
     width: 100% !important;
     bottom: 0px !important;
@@ -33,7 +34,7 @@ body.yfw .html5-video-container .html5-main-video {
     left: 0px !important;
     top: 0px !important;
     background: #000 !important;
-}
+}*/
 
 body.yfw .ytp-tooltip {
     top: auto !important;
@@ -62,7 +63,7 @@ body .ytp-full-windowed-button:after {
     /*background-color: rgba(25, 25, 25, .89);*/
     background-color: #191919;
     transition: opacity .1 ease-in-out;
-    content: 'Full Windowed (w)';
+    content: 'Full Windowed (SHIFT + W)';
     transform: translateX(-50%);
     bottom: calc(100% + 14px);
     z-index: 5555555555;
@@ -80,7 +81,7 @@ body .ytp-full-windowed-button:after {
 }
 
 body.yfw .ytp-full-windowed-button:after {
-    content: 'Exit Full Windowed (w)';
+    content: 'Full Windowed (SHIFT + W)';
     background-color: #191919;
 }
 
